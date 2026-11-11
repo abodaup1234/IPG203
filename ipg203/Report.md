@@ -68,3 +68,8 @@ classDiagram
 ```
 ...
 والحمدلله رب العالمين
+
+
+
+### الوراثة وتعدد الأشكال (Inheritance & Polymorphism)
+الفئات `Refrigerator` و`WashingMachine` و`AirConditioner` ترث من `Appliance`. كل فئة تعيد تعريف `CalculateRepairCost` باستخدام `override` وتضيف قيمة مناسبة لنوع الجهاز. في `RepairCenter` نستخدم `List<Appliance>` لتخزين أنواع مختلفة، ثم نستدعي `CalculateRepairCost` دون الحاجة إلى معرفة نوع كل عنصر؛ وهذه هي فكرة تعدد الأشكال.
