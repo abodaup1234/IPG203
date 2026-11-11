@@ -67,3 +67,4 @@ classDiagram
     RepairCenter o-- Appliance
 ```
 ...
+والحمدلله رب العالمين
