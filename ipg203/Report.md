@@ -66,3 +66,4 @@ classDiagram
     Appliance <|-- AirConditioner
     RepairCenter o-- Appliance
 ```
+...
